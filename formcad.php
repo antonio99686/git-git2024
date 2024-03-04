@@ -65,14 +65,7 @@
                             class="form-control">
                         </div>
                     </div>
-                    <div>
-                        <div class="mb-3">
-                            <label>Categoria</label>
-                            <input type="text" name="tipo" 
-                            class="form-control">
-                        </div>
-                    </div>
-                    <div>
+                    
                         <div class="mb-3">
                             <label>Telefone</label>
                             <input type="text" name="telefone" 
