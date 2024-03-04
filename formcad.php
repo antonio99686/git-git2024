@@ -26,7 +26,7 @@
                         <div>
                         <div class="mb-3">
                             <label>Nome completo</label>
-                            <input type="text" name="usuario"
+                            <input type="email" name="usuario"
                              class="form-control">
                         </div>
                     </div>
@@ -37,52 +37,8 @@
                             class="form-control">
                         </div>
                     </div>
-                    <div>
-                        <div class="mb-3">
-                            <label>E-mail</label>
-                            <input type="email" name="email" 
-                            class="form-control">
-                        </div>
-                    </div>
-                    <div>
-                        <div class="mb-3">
-                            <label>Data de Nascimento</label>
-                            <input type="text" name="nascimento" 
-                            class="form-control">
-                        </div>
-                    </div>
-                    <div>
-                        <div class="mb-3">
-                            <label>CPF</label>
-                            <input type="text" required name="cpf" 
-                            class="form-control">
-                        </div>
-                    </div>
-                    <div>
-                        <div class="mb-3">
-                            <label>RG</label>
-                            <input type="text" required name="RG" 
-                            class="form-control">
-                        </div>
-                    </div>
-                    
-                        <div class="mb-3">
-                            <label>Telefone</label>
-                            <input type="text" name="telefone" 
-                            class="form-control">
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="mb-3">
-                            <label>Imagem</label>
-                         <input name="arquivo" type="file" 
-                            class="form-control">
-                        </div>
-                    </div>
-                    
-                    <div>
-                        <div class="mb-3">
+                   
+                       
                             <button type="submit" class="btn 
        btn-primary"> Enviar </button>
 

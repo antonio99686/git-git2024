@@ -24,7 +24,7 @@ echo"<script>location.hrfe='index.php';</script>";
 <a class="navbar-brand"> Sentinela da Fronteira</a>
 <?php
 include("conexao.php");
-$sql = "SELECT * FROM usuario WHERE id =" . $_SESSION['id'];
+$sql = "SELECT * FROM usuario WHERE id_usuario =" . $_SESSION['id'];
 $resultado = mysqli_query($conexao, $sql);
 $dados = mysqli_fetch_assoc($resultado);
 echo "Olá, ". $_SESSION["nome"];
@@ -48,29 +48,6 @@ echo"<br>";
 
 
 
-echo"Matricula:";
-echo $dados['usuario'];
-echo"<br>";
-
-echo"E-mail:";
-echo $dados['email'];
-echo"<br>";
-
-echo"CPF:";
-echo $dados['CPF'];
-echo"<br>";
-
-echo"RG:";
-echo $dados['RG'];
-echo"<br>";
-
-echo"Categoria:";
-echo $dados['tipo'];
-echo"<br>";
-
-echo"Contato:";
-echo $dados['telefone'];
-echo"<br>";
 
 ?>
 </div>
