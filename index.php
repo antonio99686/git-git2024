@@ -26,7 +26,7 @@
                         <div>
                         <div class="mb-3">
                             <label>Usuário</label>
-                            <input type="text" name="usuario"
+                            <input type="text" name="email"
                              class="form-control">
                         </div>
                     </div>

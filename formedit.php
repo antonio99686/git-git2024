@@ -22,11 +22,11 @@
                             <h3>Editar</h3>
                         </div>
                         <div class="card-body">
-                            <form action="edit.php" method="POST" enctype="multipart/form-data">
+                            <form action="cadastrar.php" method="POST" enctype="multipart/form-data">
                         <div>
                         <div class="mb-3">
                             <label>Nome completo</label>
-                            <input type="text" name="usuario"
+                            <input type="text" name="nome"
                              class="form-control">
                         </div>
                     </div>
@@ -44,53 +44,8 @@
                             class="form-control">
                         </div>
                     </div>
-                    <div>
-                        <div class="mb-3">
-                            <label>Data de Nascimento</label>
-                            <input type="text" name="nascimento" 
-                            class="form-control">
-                        </div>
-                    </div>
-                    <div>
-                        <div class="mb-3">
-                            <label>CPF</label>
-                            <input type="text" required name="cpf" 
-                            class="form-control">
-                        </div>
-                    </div>
-                    <div>
-                        <div class="mb-3">
-                            <label>RG</label>
-                            <input type="text" required name="RG" 
-                            class="form-control">
-                        </div>
-                    </div>
-                    <div>
-                        <div class="mb-3">
-                            <label>Categoria</label>
-                            <input type="text" name="tipo" 
-                            class="form-control">
-                        </div>
-                    </div>
-                    <div>
-                        <div class="mb-3">
-                            <label>Telefone</label>
-                            <input type="text" name="telefone" 
-                            class="form-control">
-                        </div>
-                    </div>
-
-                    <div>
-                        <div class="mb-3">
-                            <label>Imagem</label>
-                         <input name="arquivo" type="file" 
-                            class="form-control">
-                        </div>
-                    </div>
-                    
-                    <div>
-                        <div class="mb-3">
-                            <input type="hidden" name="id">
+                   
+                       
                             <button type="submit" class="btn 
        btn-primary"> Enviar </button>
 

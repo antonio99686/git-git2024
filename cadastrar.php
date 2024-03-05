@@ -5,18 +5,19 @@ include('conexao.php');
 
 
 //dados do formulario
-$usuario =  $_POST['usuario'];
+$usuario =  $_POST['nome'];
 $senha = $_POST['senha'];
+$email = $_POST['email'];
 
 
 
 //cadastramento no banco
 $sql = "INSERT INTO usuario(
-  
+  nome,
      email,
      senha)
  VALUES 
- ('$usuario','$senha')";
+ ('$usuario','$email','$senha')";
 
 // Executar o comando SQL
 if (mysqli_query($conexao, $sql)){
