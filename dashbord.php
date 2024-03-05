@@ -21,7 +21,7 @@ echo"<script>location.hrfe='index.php';</script>";
 
 <nav class="navbar navbar-light bg-light">
     <div class="container-fluid">
-<a class="navbar-brand"> Sentinela da Fronteira</a>
+<a class="navbar-brand"> Sistema</a>
 <?php
 include("conexao.php");
 $sql = "SELECT * FROM usuario";
@@ -40,7 +40,7 @@ echo "<a href='logout.php' class='btn btn-danger'>Sair</a>";
 <div class="posisao">
   <?php
  
- echo"Nome:";
+ echo"Nome: ";
  echo $dados["nome"];
  echo"<br>";
  
