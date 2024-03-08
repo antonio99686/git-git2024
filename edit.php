@@ -5,7 +5,7 @@ include('conexao.php');
 $usuario =  $_POST['nome'];
 $senha = $_POST['senha'];
 $email = $_POST['email'];
-$id =  $_POST['id_usuario'];
+
 
 
 //cadastra no banco
